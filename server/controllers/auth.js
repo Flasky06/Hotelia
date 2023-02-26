@@ -2,6 +2,7 @@ import bcrypt from "bcryptjs";
 import User from "../models/User.js";
 import { createError } from "../utils/error.js";
 import Jwt from "jsonwebtoken";
+
 // REGISTER NEW USER
 export const register = async (req, res, next) => {
 	try {
